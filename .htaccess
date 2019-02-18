@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteRule vtaminka /vtaminka-wp/angular/public/ [L]
+RewriteRule panel /vtaminka-wp/admin/wp-login.php [L]
+
+</IfModule>
+
+# END WordPress
